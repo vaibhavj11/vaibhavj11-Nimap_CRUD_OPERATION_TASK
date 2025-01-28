@@ -12,7 +12,9 @@ import com.example.demo.Service.CategoryService;
 
 @Service
 public class CategoryDao implements CategoryService {
-	
+
+    // This implimentation needs to be private
+
 	@Autowired
 	CategoryRepository cr;
 
