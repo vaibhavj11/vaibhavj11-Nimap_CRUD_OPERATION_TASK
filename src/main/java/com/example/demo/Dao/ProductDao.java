@@ -13,6 +13,8 @@ import com.example.demo.Service.ProductService;
 @Service
 public class ProductDao implements ProductService {
 
+	//This implimentation needs to be private
+
 	@Autowired
 	ProductRepository pr;
 

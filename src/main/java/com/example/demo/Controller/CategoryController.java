@@ -19,7 +19,7 @@ import com.example.demo.Service.CategoryService;
 @RestController
 @RequestMapping("/api/categories")
 public class CategoryController {
-
+	
 	@Autowired
 	private CategoryService cs;
 	
